@@ -1,0 +1,5 @@
+{
+  "model_name": "HistGradientBoosting",
+  "dataset": "S06-hw-dataset-02.csv",
+  "random_state": 42
+}
