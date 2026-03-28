@@ -1,0 +1,25 @@
+{
+  "experiment_id": "C4",
+  "dataset": "STL10",
+  "num_classes": 10,
+  "architecture": "ResNet18-finetune",
+  "augmentation": "aug",
+  "optimizer": "AdamW",
+  "lr": 0.0005,
+  "epochs": 20,
+  "seed": 42,
+  "input_size": 224,
+  "normalize_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalize_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "val_split": "20% of train (seed=42)",
+  "best_val_accuracy": 0.951,
+  "test_accuracy": 0.948875
+}
