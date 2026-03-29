@@ -21,5 +21,6 @@
   ],
   "val_split": "20% of train (seed=42)",
   "best_val_accuracy": 0.951,
-  "test_accuracy": 0.948875
+  "test_accuracy": 0.948875,
+  "note": "Test evaluated once, only for best model selected by val_accuracy"
 }
